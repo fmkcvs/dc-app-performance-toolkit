@@ -8852,10 +8852,7 @@ vars.put(&quot;p_uuid&quot;, UUID.randomUUID().toString());</stringProp>
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
                       <stringProp name="Argument.value">{&#xd;
 	&quot;type&quot;: &quot;com.mute.confluence.plugins.terms:term-type&quot;,&#xd;
-	&quot;title&quot;: &quot;erm for perf testing&quot;,&#xd;
-	&quot;version&quot;: {&#xd;
-		&quot;number&quot;: 2&#xd;
-	},&#xd;
+	&quot;title&quot;: &quot;Term for perf testing&quot;,&#xd;
 	&quot;metadata&quot;: {&#xd;
 		&quot;labels&quot;: []&#xd;
 	},&#xd;
