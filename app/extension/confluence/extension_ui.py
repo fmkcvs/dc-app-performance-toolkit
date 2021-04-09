@@ -39,6 +39,6 @@ def app_specific_action(webdriver, datasets):
         def sub_measure():
             page.go_to_url(f"{CONFLUENCE_SETTINGS.server_url}/pages/viewpage.action?pageId={app_specific_page_id}")
             page.wait_until_visible((By.ID, "title-text"))  # Wait for title field visible
-            page.wait_until_visible((By.ID, "ID_OF_YOUR_APP_SPECIFIC_UI_ELEMENT"))  # Wait for you app-specific UI element by ID selector
+            page.wait_until_visible((By.ID, "tables-formula-container"))  # Wait for you app-specific UI element by ID selector
         sub_measure()
     measure()
